@@ -1,0 +1,56 @@
+<doctype html>
+
+<html>
+
+	<head>
+		<title>Tabelas em HTML</title>
+		<meta charset="utf-8">
+
+	</head>
+
+	<body>
+		<h1>Lista de Alunos</h1>
+		<table border="2" width="100%">
+			<!-- table rows --> 
+			<tr>
+				<!--table header -->
+				<th>Alunos</th>
+				<th>Serie</th>
+				<th>Ano de conclusão</th>
+
+			</tr>
+
+			<tr>
+				<td>Marcio Oliveira</td>
+				<td>
+					<img src="imagens/ferrari.jpeg">
+				</td>
+				<td>2022</td>
+			</tr>
+
+			<tr>
+				<td>Fabio Oliveira</td>
+				<td>Ensino Superior</td>
+				<td>1999</td>
+			</tr>	
+
+			<tr>
+				<td rowspan="2">Total de alunos</td>
+				<td colspan="2" align="center">3</td>
+			</tr>		
+
+			<tr>
+				<td colspan="2" align="center">3</td>
+			</tr>		
+
+			<tr>
+				<td>Total dos totais</td>
+				<td colspan="2" align="center">3</td>
+			</tr>	
+
+		</table>
+		<h2>Imagem ocupando 100% da tela</h2>
+		<img src="imagens/ferrari.jpeg" width="100%">
+
+	</body>
+</html>
